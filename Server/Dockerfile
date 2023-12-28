@@ -11,7 +11,7 @@ COPY ./server ./server
 RUN cd server && npm install
 
 # Definir una variable de entorno para la clave de conexión a MongoDB
-ENV DB_URL_ATLAS=
+ENV DB_URL_ATLAS= 
 
 # Iniciar el servidor
 CMD ["sh", "-c", "cd server && npm start"]
