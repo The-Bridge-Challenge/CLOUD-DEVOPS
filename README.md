@@ -20,7 +20,7 @@
 - Utilizar técnicas de **automatización para configuración y actualización**.
 
 ### 🛠️ Selección y Gestión de la Cuenta de Cloud
-- Elegir la **cuenta de Cloud asociada al grupo del proyecto**.
+- Elegir **cuenta de Cloud asociada al grupo del proyecto**.
 - Gestionar la **gratuidad** para el tiempo que dure el desafío de tripulaciones.
 - Establecer **niveles de acceso y edición de recursos** para los miembros del equipo.
 
