@@ -1,7 +1,7 @@
 steps:
 
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['config', 'set', 'project', 'optimum-rock-404123']
+  args: ['config', 'set', 'project', 'desafio-the-bridge']
 
 # Build the container image
 - name: 'gcr.io/cloud-builders/docker'
@@ -22,16 +22,16 @@ steps:
     --platform=managed 
     --allow-unauthenticated 
     --port=3000 
-    --update-env-vars DB_URL_ATLAS=$$DB_URL_ATLAS"
+    --update-env-vars DB_URL_SQL=$$DB_URL_SQL"
   ]
 
   secretEnv: [
-    'DB_URL_ATLAS'
+    'DB_URL_SQL'
   ]
 images:
 - 'gcr.io/$PROJECT_ID/users-app-server:$COMMIT_SHA'
 
 availableSecrets:
   secretManager:
-    - versionName: projects/978880424422/secrets/connection-mongo/versions/1
-      env: 'DB_URL_ATLAS'
+    - versionName: projects/978880424422/secrets/"aquivaelnombre"/versions/1
+      env: 'DB_URL_SQL'
