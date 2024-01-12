@@ -42,5 +42,5 @@ def obtener_datos(cups):
         return jsonify(df.to_dict(orient='records'))
 
 if __name__ == '__main__':
-    app.run(port=5050, host='0.0.0.0')
+    app.run(port=8080, host='0.0.0.0')
 

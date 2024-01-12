@@ -25,7 +25,7 @@ COPY . .
 RUN pip install --no-cache-dir numpy==1.19.3
 
 # Expone el puerto 5050
-EXPOSE 5050
+EXPOSE 8080
 
 # Define el comando por defecto para ejecutar tu aplicación
 CMD ["python", "app_candela.py"]
