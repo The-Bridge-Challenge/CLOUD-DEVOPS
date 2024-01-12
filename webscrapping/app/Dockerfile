@@ -1,6 +1,8 @@
 # Usa la imagen oficial de Python de Alpine
 FROM python:3.9-alpine
 
+RUN apk --no-cache add build-base
+
 # Establece el directorio de trabajo en /app
 WORKDIR /app/src
 
@@ -17,7 +19,7 @@ COPY . .
 RUN pip install --no-cache-dir numpy==1.19.3
 
 # Instala las dependencias
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r app/requirements.txt
 
 # Expone el puerto 5050
 EXPOSE 5050
