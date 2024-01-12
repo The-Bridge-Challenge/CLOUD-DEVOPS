@@ -5,8 +5,6 @@ FROM python:3.9-alpine
 WORKDIR /app/src
 
 # Copia los archivos actuales en el contenedor en /app
-COPY ./app/requirements.txt /app/src/requirements.txt
-
 COPY . .
 
 # Instala las dependencias
