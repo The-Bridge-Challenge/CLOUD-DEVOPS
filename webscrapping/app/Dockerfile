@@ -15,11 +15,11 @@ RUN apk add --no-cache build-base
 # Copia los archivos actuales en el contenedor en /app
 COPY . .
 
+# Instala las dependencias
+RUN pip install -r requirements.txt
+
 # Ajustes específicos de NumPy
 RUN pip install --no-cache-dir numpy==1.19.3
-
-# Instala las dependencias
-RUN pip install --no-cache-dir -r app/requirements.txt
 
 # Expone el puerto 5050
 EXPOSE 5050
