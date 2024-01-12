@@ -12,11 +12,14 @@ RUN pip install --no-cache-dir --upgrade pip setuptools
 # Instala las dependencias de desarrollo necesarias
 RUN apk add --no-cache build-base
 
-# Copia los archivos actuales en el contenedor en /app
-COPY . .
+# Copia solo el archivo requirements.txt primero para aprovechar la caché de Docker
+COPY app/requirements.txt .
 
 # Instala las dependencias
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copia los archivos actuales en el contenedor en /app
+COPY . .
 
 # Ajustes específicos de NumPy
 RUN pip install --no-cache-dir numpy==1.19.3
