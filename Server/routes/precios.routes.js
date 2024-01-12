@@ -1,14 +1,10 @@
 const preciosRouter = require("express").Router();
 const precios = require('../controllers/precios.controller');
 
-// GET /api/precios/all 100 primeros
-preciosRouter.get('/all',precios.getAllprecios);
+// GET /api/precios/cias body->{sistema} retrun cias[]
+preciosRouter.get('/cias',precios.getCias);
 
-// GET /api/precios/ body={sistema: '',cia: '',producto: '',producto_cia: '',tarifa: '',fee: ''}
-preciosRouter.get('/',precios.getPricesWithParams);
-
-// GET /api/precios/fields
-preciosRouter.get('/fields',precios.getFields)
-
+// GET /api/precios/fijos/productos body->{sistema,cia}  retrun productosCia[]
+preciosRouter.get('/fijos/productos',precios.getProductosFijosCia)
 
 module.exports = preciosRouter;

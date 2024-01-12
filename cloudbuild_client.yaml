@@ -1,7 +1,7 @@
 steps:
 
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['config', 'set', 'project', 'optimum-rock-404123']
+  args: ['config', 'set', 'project', 'desafio-the-bridge']
 
 # Build the container image
 - name: 'gcr.io/cloud-builders/docker'

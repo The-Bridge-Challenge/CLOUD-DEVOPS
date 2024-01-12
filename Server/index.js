@@ -1,8 +1,10 @@
 require('dotenv').config();
 const helmet = require('helmet');
 const express = require('express');
+const error404 = require('./middleware/error404')
+const morgan = require('morgan')
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 // const path = require('path');
 const cors = require('cors');
 
@@ -19,6 +21,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(helmet());
+app.use(morgan('combined'))
 
 app.use('/api/users',userRoutes)
 
@@ -26,19 +29,7 @@ app.use('/api/login',loginRoutes)
 
 app.use('/api/precios',preciosRoutes)
 
-
-//* Serve static assets in production, must be at this location of this file
-// if (process.env.NODE_ENV === 'production') {
-//     //*Set static folder
-//     app.use(express.static('client/build'));
-  
-//     app.get('*', (req, res) => res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html')));
-//   }
-
-// dummy route
-// app.get("/", (req, res) => {
-//     res.send("Hello world!");
-//   });
+app.use('*',error404);
   
 app.listen(port, () => {
     console.log(`listening on port:${port}`);

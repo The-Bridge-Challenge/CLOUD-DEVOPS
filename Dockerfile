@@ -1,9 +1,9 @@
 FROM node:18-alpine
 WORKDIR /app
-COPY . .
-RUN npm install --silent
-CMD ["npm", "run", "dev"]
+COPY ./server ./server
+RUN cd server && npm install
 EXPOSE 8080
+CMD ["sh", "-c", "cd server && npm start"]
 
 #docker build -t [nombre de la imagen a generar]:[tag version] .    <- importante el punto, es el path de ejecucion
 

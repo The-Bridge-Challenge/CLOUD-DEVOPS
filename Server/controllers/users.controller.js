@@ -24,10 +24,19 @@ const readUser = async (req, res) => {
 const createUser = async (req, res) => {
   try {
     const data = req.body;
+    /*
+    data{
+      name:""
+      email:"@"
+      password:"HASH"
+      role:""
+    }
+    */
     if(data.role == null){
+      //default role unprivileged user
       data.role = 'asesor';
     }
-    console.log('datos para el user ', data);
+    // console.log('datos para el user ', data);
     let answer = await usersModel.create(data);
     res.status(201).json(answer);
   } catch (error) {
