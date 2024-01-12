@@ -1,10 +1,19 @@
-FROM node:18-alpine
+# Usa la imagen oficial de Python en Alpine
+FROM python:3.9-alpine
+
+# Establece el directorio de trabajo en /app
 WORKDIR /app
-COPY ./server ./server
-RUN cd server && npm install
-EXPOSE 8080
-CMD ["sh", "-c", "cd server && npm start"]
 
-#docker build -t [nombre de la imagen a generar]:[tag version] .    <- importante el punto, es el path de ejecucion
+# Copia los archivos actuales en el contenedor en /app
+COPY . /app
 
-#docker run --name postgres-db -e POSTGRES_PASSWORD=123456 -p 5432:5432 -d postgres
+# Instala las dependencias
+RUN apk add --no-cache build-base \
+    && pip install --no-cache-dir -r requirements.txt \
+    && apk del build-base
+
+# Expone el puerto 5050
+EXPOSE 5050
+
+# Define el comando por defecto para ejecutar tu aplicación
+CMD ["python", "app_candela.py"]
