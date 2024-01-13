@@ -26,7 +26,7 @@ def result():
 
         # Agregué este bloque para manejar el caso de que no se obtuvieran datos
         post_data = {'cups': cups}
-        response = requests.post('http://tu_otra_app/endpoint', data=post_data)
+        response = requests.post('https://', data=post_data)
         print(response.text)  # Puedes manejar la respuesta como desees
 
     return jsonify({'mensaje': mensaje, 'cups': cups})
