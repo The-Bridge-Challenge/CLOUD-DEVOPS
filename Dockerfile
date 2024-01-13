@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY ./app ./app
 RUN pip install --no-cache-dir numpy==1.19.3
 EXPOSE 8080
-CMD ["python", "app/app/app_candela.py"]
+CMD ["python", "app/app_candela.py"]
 
 
 
