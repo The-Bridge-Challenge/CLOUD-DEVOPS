@@ -24,10 +24,10 @@ def result():
     else:
         mensaje = 'No se obtuvieron datos para el CUPS proporcionado'
 
-        # Agregué este bloque para manejar el caso de que no se obtuvieran datos
+        
         post_data = {'cups': cups}
         response = requests.post('https://', data=post_data)
-        print(response.text)  # Puedes manejar la respuesta como desees
+        print(response.text)  
 
     return jsonify({'mensaje': mensaje, 'cups': cups})
 
