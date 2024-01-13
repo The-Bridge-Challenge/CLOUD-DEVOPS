@@ -4,60 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Scraping App</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #000000; /* Fondo negro */
-            color: #ffffff; /* Texto blanco */
-            margin: 40px;
-        }
-
-        h1 {
-            color: #e84855; /* Rojo brillante para el encabezado */
-            text-align: center;
-        }
-
-        form {
-            background-color: #3a3a3a; /* Gris oscuro para el formulario */
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        label {
-            /* Color amarillo eliminado */
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        input {
-            padding: 8px;
-            margin: 10px;
-            width: 200px;
-            border: 2px solid #ffcc00; /* Borde amarillo eliminado */
-            border-radius: 5px;
-            font-size: 16px;
-            color: #000000; /* Texto negro */
-        }
-
-        button {
-            padding: 10px 20px;
-            background-color: #e84855; /* Rojo brillante para el botón */
-            color: #fff; /* Texto blanco para el botón */
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        img {
-            display: block;
-            margin: auto;
-            margin-top: 20px; /* Espacio entre el campo y la imagen */
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <div id="rays-container"></div>
     <h1>Welcome to the Web Scraping App By DATA SCIENCE</h1>
     <form action="/result" method="post">
         <label for="cups">Enter CUPS:</label>
@@ -65,5 +15,7 @@
         <button type="submit">Submit</button>
     </form>
     <img src="https://media.licdn.com/dms/image/D4D16AQEeQiNF-7gARg/profile-displaybackgroundimage-shrink_200_800/0/1695132795604?e=2147483647&v=beta&t=NerP7j-Eqfazfsjc3fJb7UeKeAOkS877vQWnaUQJENQ" alt="several">
+    <script src="rays.js"></script>
 </body>
 </html>
+
