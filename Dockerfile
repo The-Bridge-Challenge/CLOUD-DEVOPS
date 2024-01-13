@@ -4,7 +4,7 @@ FROM python:3.9-alpine
 RUN apk --no-cache add build-base
 
 # Establece el directorio de trabajo en /app
-WORKDIR /app/src
+WORKDIR /app
 
 # Actualiza Pip y Setuptools
 RUN pip install --no-cache-dir --upgrade pip setuptools
