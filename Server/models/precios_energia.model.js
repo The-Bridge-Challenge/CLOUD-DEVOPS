@@ -25,27 +25,27 @@ const precio_energia = db.define("precio_energia", {
         type: DataTypes.STRING(50),
     },
     p1_e:{
-        field:'p1',
+        field:'p1_e',
         type: DataTypes.DOUBLE,
     },
     p2_e:{
-        field:'p2',
+        field:'p2_e',
         type: DataTypes.DOUBLE,
     },
     p3_e:{
-        field:'p3',
+        field:'p3_e',
         type: DataTypes.DOUBLE,
     },
     p4_e:{
-        field:'p4',
+        field:'p4_e',
         type: DataTypes.DOUBLE,
     },
     p5_e:{
-        field:'p5',
+        field:'p5_e',
         type: DataTypes.DOUBLE,
     },    
     p6_e:{
-        field:'p6',
+        field:'p6_e',
         type: DataTypes.DOUBLE,
     },
 },

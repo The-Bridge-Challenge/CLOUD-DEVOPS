@@ -13,12 +13,15 @@ getAccessToken.use(async (req, res, next) => {
                 req.token = token;
                 next();
             } else {
+                console.log("fallo al leer token");
                 res.sendStatus(403)
             }
         } else {
+            console.log("no hay token en cookie");
             res.sendStatus(403)
         };
     } else {
+        console.log("no hay cookie");
         res.sendStatus(403)
     };
 });

@@ -1,47 +1,43 @@
-# 🌐 Guía de Desarrollo Fullstack
+# Proyecto Final - Comparador de Precios Online para Candela
 
----
+## Descripción del Proyecto
+Este proyecto fue desarrollado como parte del programa Fullstack en The Bridge por Raúl, Javier, Elena y Carlos. El objetivo principal del proyecto es crear un comparador de precios online con una función calculadora para la empresa Candela.
 
-## 🛠️ Tecnologías y Herramientas
-- **📜 Lenguaje de Programación:** JavaScript
-- **🔙 Backend:** Node.js con Express.js
-- **🖥️ Frontend:** React
-- **🗃️ ORM para SQL:** Sequelize para interactuar con Cloud SQL
-
----
-
-## 📝 Desarrollo y Directrices Específicas
 
 ### 🏗️ Arquitectura de la Solución
-- Crear y documentar la arquitectura de la solución, asegurando la implementación efectiva de la misma.
-- Trabajar lado a lado con el equipo de Ciberseguridad para determinar el nivel de seguridad adecuado.
+
+- **MVC:**
+   Modelo-Vsita-Controlador , Arquitectura utilizada para serparar los datos de la logica de negocio , a su vez se ha decidido separar la Vista (Frontend) web para navegador en react , del Modelo y Controladores (Backend) Este patro a su vez de conoce como Cliente Servidor
 
 ### 💻 Desarrollo Frontend y Backend
-- Desarrollar el frontend con React, enfocado en diseño mobile-first y SPA (single page application).
-- Crear y mantener una API RESTful con Express.js, alojada en Cloud Run, para el backend.
-- Asegurar que la aplicación cargue y renderice solo los contenidos necesarios con cada cambio de endpoint.
 
-### 🗄️ Selección de Base de Datos
-- Elegir entre base de datos SQL o NoSQL según el modelo de datos y la compatibilidad con los resultados del trabajo de Data.
-- Integrar Sequelize para la manipulación de la base de datos SQL en Cloud SQL.
+- **Frontend:** Desarrollado en React, proporciona una interfaz de usuario intuitiva y atractiva para comparar precios y realizar cálculos.
 
-### 📦 Uso de Recursos de Terceros
-- Utilizar recursos de terceros (librerías, paquetes npm, etc.) para optimizar el tiempo de desarrollo y entrega.
+- **Backend:** Implementado en JavaScript (Node.js), utiliza Sequelize como base de datos para gestionar la información del comparador de precios.
 
-### 🔁 Gestión de Control de Versiones
-- Manejar el control de versiones con GitHub desde el inicio del proyecto.
+- **Base de Datos:** Se utiliza Sequelize como ORM (object-relational mapping , mapeo relacional de objetos) para interactuar con la base de datos y almacenar la información necesaria para el funcionamiento del comparador.
 
-### 📊 Documentación y Pruebas
-- Gestionar la documentación y pruebas del proyecto en la medida que el tiempo lo permita.
-- Documentar todas las fases y componentes del desarrollo.
+### 🔍 Funcionalidades Actuales
 
-### 🤝 Colaboración y Presentación
-- Trabajar en colaboración con otros equipos, especialmente UX, para una implementación efectiva del proyecto.
+1. **Comparador de Precios:** Permite a los usuarios comparar precios de productos de diferentes proveedores de manera fácil y rápida.
+2. **Calculadora Integrada:** Incluye una función calculadora que facilita a los usuarios realizar cálculos relacionados con los precios y las cantidades de productos.
+3. **Persistencia de Datos:** La información sobre productos, proveedores y precios se almacena de manera segura en la base de datos utilizando Sequelize.
 
----
+### ⌛ Futuras Mejoras
 
-## 📄 Documentación
-- Mantener la documentación actualizada durante todo el proceso de desarrollo.
-- Preparar material para la presentación del proyecto, resaltando características clave y decisiones de diseño.
+- **Generador Automático de Precios:** Implementar una funcionalidad que permita la generación automática de precios para facilitar la actualización de la base de datos.
+- **Mejora de Maquetación:** Refinar y mejorar la interfaz de usuario para una experiencia más agradable y fácil de usar.
+- **Mejora de la Vista del PDF Generado:** Optimizar la presentación y el formato del PDF generado al realizar comparaciones y cálculos.
+- **Funciones Avanzadas para "Propuestas" y Usuarios:** Implementar características adicionales que permitan a los usuarios crear propuestas, gestionar cuentas y personalizar sus experiencias.
 
----
+## 🌐 Acceso a la Aplicación:
+
+Abra su navegador y visite https://cloudbuilds-client-folgybvrpq-ew.a.run.app/ para acceder a la aplicación. (solicite las credenciales de aceso a cualciera de nuestros devs)
+
+## 🤝 Developers
+- Javier
+- Elena
+- Carlos
+- Raúl
+
+¡Gracias por contribuir al desarrollo de este proyecto! Siéntase libre de proponer nuevas funciones, reportar problemas o contribuir con mejoras. ¡Disfruta usando el comparador de precios online para Candela!
