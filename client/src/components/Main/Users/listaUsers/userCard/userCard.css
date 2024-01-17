@@ -1,0 +1,17 @@
+.userCard {
+    width: 8%;
+    height: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; 
+    border: 2px solid var(--Primary-Red-500, #C10000);
+    margin: 10px;
+}
+
+img.profile{
+    margin-top: 10px;
+    width: 50%;
+    height: 50%;
+}

@@ -1,0 +1,40 @@
+
+#confirmation_button{
+    border-radius: 8px;
+    border: 2px solid var(--Primary-Red-500, #C10000);
+    color: var(--Primary-Red-500, #C10000);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    height: 40px;
+    padding: 8px;
+    cursor: pointer;
+
+}
+
+select{
+    width: 100%;
+    
+}
+
+
+#select_section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    
+}
+
+.saving{
+    padding: 20px;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.bigger{
+    padding: 5px;
+}
