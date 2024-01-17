@@ -1,6 +1,6 @@
 FROM node:18-alpine
 WORKDIR /app
-COPY ./server ./server
+COPY ./Server ./server
 RUN cd server && npm install
 COPY ./hardening ./hardening
 EXPOSE 8080
