@@ -80,9 +80,8 @@ Cloud Monitoring será nuestros ojos en tiempo real. Ofrece una visión detallad
 
 </details>
 
-### ¡Con este enfoque de trabajo entre todas las verticales, nuestro equipo Cloud & DevOps está listo para conquistar el desafío en The Bridge! 🚢✨
-
 - Algunos lenguajes que usamos en este proyecto.
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=christianmendez1501&layout=pie)](https://github.com/The-Bridge-Challenge/Challenge)
 
+### ¡Con este enfoque de trabajo entre todas las verticales, nuestro equipo Cloud & DevOps está listo para conquistar el desafío en The Bridge! 🚢✨
