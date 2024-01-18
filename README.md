@@ -103,6 +103,6 @@ Cloud Monitoring será nuestros ojos en tiempo real. Ofrece una visión detallad
     <b>Christian Mendez</b>
   </sub>
   <br/>
-  <a href="https://github.com/christianmendez1501" title="GitHub">📖</a> 
-  <a href="https://github.com/christianmendez1501" title="GitHub">💻</a>
+  <a href="https://github.com/christianmendez1501" title="GitHub"></a> 
+  <a href="https://github.com/christianmendez1501" title="GitHub"></a>
 </p>
