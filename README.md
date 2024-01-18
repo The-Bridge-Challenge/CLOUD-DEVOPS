@@ -3,7 +3,7 @@
 
 
 ### Índice:
-1. [Gestión de permisos y control de versiones](#gestión-de-permisos-y-control-de-versiones) 🛡️
+1. [Gestión de permisos y control de versiones](###gestión-de-permisos-y-control-de-versiones) 🛡️
 2. [Diseño de la Arquitectura](#diseño-de-la-arquitectura) 🏗️
 3. [Infraestructura como código (IaC)](#infraestructura-como-código-iac) 💻
 4. [Despliegue e implementación contínuos (CI/CD)](#despliegue-e-implementación-contínuos-cicd) 🔄
