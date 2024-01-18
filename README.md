@@ -94,7 +94,7 @@ Cloud Monitoring será nuestros ojos en tiempo real. Ofrece una visión detallad
 
 # Colaboradores
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/christianmendez1501">
     <img src="https://avatars.githubusercontent.com/u/143126480?s=400&u=9ded5cfc09f8bb2bc6a97a7992cab9b2995bc616&v=4" width="100px;" style="border-radius: 50%;" alt=""/>
   </a>
