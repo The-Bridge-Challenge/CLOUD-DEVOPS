@@ -1,4 +1,7 @@
-# DESAFÍO DE TRIPULACIONES - THE BRIDGE
+<p align="center">
+  <h1> DESAFÍO DE TRIPULACIONES - THE BRIDGE</h1>
+</p>
+
 
 ### Índice:
 1. [Gestión de permisos y control de versiones](#gestión-de-permisos-y-control-de-versiones) 🛡️
