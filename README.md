@@ -1,6 +1,4 @@
-<p align="center">
-  <h1> DESAFÍO DE TRIPULACIONES - THE BRIDGE</h1>
-</p>
+# <p align="center">DESAFÍO DE TRIPULACIONES - THE BRIDGE</p>
 
 
 ### Índice:
