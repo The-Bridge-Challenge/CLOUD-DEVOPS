@@ -91,3 +91,30 @@ Cloud Monitoring será nuestros ojos en tiempo real. Ofrece una visión detallad
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=christianmendez1501&layout=pie)](https://github.com/The-Bridge-Challenge/Challenge)
 
 ### ¡Con este enfoque de trabajo entre todas las verticales, nuestro equipo Cloud & DevOps está listo para conquistar el desafío en The Bridge! 🚢✨
+
+# Colaboradores
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/christianmendez1501">
+          <img src="https://avatars.githubusercontent.com/u/143126480?s=400&u=9ded5cfc09f8bb2bc6a97a7992cab9b2995bc616&v=4" width="100px;" style="border-radius: 50%;" alt=""/>
+          <br/>
+          <sub>
+            <b>Christian Mendez</b>
+          </sub>
+        </a>
+        <br/>
+        <a href="https://github.com/christianmendez1501" title="GitHub"></a> 
+        <a href="https://github.com/christianmendez1501" title="GitHub"></a>
+      </td>
+      <td align="center">
+          <br/>
+          <sub>
+          </sub>
+        </a>
+      </td>
+    </tr>
+  </table>
+</p>
