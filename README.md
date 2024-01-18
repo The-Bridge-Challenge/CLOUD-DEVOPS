@@ -10,11 +10,12 @@
 7. [Monitorización](#monitorización) 📊
 8. [Source(links)](#8-source)
 
+
 ### 1. Gestión de permisos y control de versiones:
 Para salvaguardar nuestra infraestructura en GCP, creamos tres grupos (ciberseguridad, data science, full-stack) y asignamos roles y permisos. Limitamos los permisos a lo esencial. Mantén la aplicación bajo vigilancia constante. ¡Protege y controla! 🔐
 
 ### 2. Diseño de la Arquitectura:
-Utilizaremos Cloud Build para el creado de los servidores con la ayuda del Cloud Run, Cloud SQL para la base de datos PostgreSQL. Una VM para el API del web scraping, Monitorización con Cloud Monitoring y Cloud Logging. ¡Optimizando para el rendimiento sin complicaciones! 🏗️
+Utilizaremos Cloud Build para el creado de los servidores con la ayuda del Cloud Run, Cloud SQL para la base de datos PostgreSQL. Una VM para el API del web scraping, Monitorización con Cloud Monitoring y Cloud Logging. ¡Optimizando para el rendimiento sin complicaciones! ![Arquitectura](design/0.png)🏗️ 
 
 **🛠️ Tecnologías y Herramientas:**
 - Plataforma Cloud: Google Cloud Platform (GCP) ☁️
@@ -43,7 +44,7 @@ Cloud Build de GCP será nuestra herramienta principal para lograr un despliegue
 
 
 ### 5. Hardening en Colaboración con Ciberseguridad:
-En colaboración con el equipo de ciberseguridad, implementamos medidas de **hardening** para fortalecer la seguridad de la infraestructura. El **hardening** implica configurar sistemas y aplicaciones de manera segura, reduciendo las vulnerabilidades y fortaleciendo las defensas. Trabajamos juntos para aplicar las mejores prácticas de seguridad y garantizar la integridad y confidencialidad de nuestros sistemas. 🔐
+En colaboración con el equipo de ciberseguridad, implementamos medidas de **hardening** para fortalecer la seguridad de la infraestructura. El **hardening** implica configurar sistemas y aplicaciones de manera segura, reduciendo las vulnerabilidades y fortaleciendo las defensas. Trabajamos juntos para aplicar las mejores prácticas de seguridad y garantizar la integridad y confidencialidad de nuestros sistemas. [hardening](hardening/hardening.sh) 🔐
 
 ### 6. Web Scraping para Obtener Datos:
 Implementamos una máquina virtual (VM) en colaboracion con el equipo de Data Science para ejecutar el proceso de [Web Scraping](/Webscrapping/)
