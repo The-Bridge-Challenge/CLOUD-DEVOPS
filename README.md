@@ -17,9 +17,9 @@ Para salvaguardar nuestra infraestructura en GCP, creamos tres grupos (cibersegu
 ![Alt text](img/image.png)
 
 ### 2. Diseño de la Arquitectura:
-Utilizaremos Cloud Build para el creado de los servidores con la ayuda del Cloud Run, Cloud SQL para la base de datos PostgreSQL. Una VM para el API del web scraping, Monitorización con Cloud Monitoring y Cloud Logging. ¡Optimizando para el rendimiento sin complicaciones!. 
+Utilizaremos Cloud Build para el creado de los servidores con la ayuda del Cloud Run, Cloud SQL para la base de datos PostgreSQL. Una VM para el API del web scraping, Monitorización con Cloud Monitoring y Cloud Logging. ¡Optimizando para el rendimiento sin complicaciones!🏗️. 
 
-![Arquitectura](Design/00.png)🏗️ 
+![Arquitectura](Design/00.png) 
 
 **🛠️ Tecnologías y Herramientas:**
 - Plataforma Cloud: Google Cloud Platform (GCP) ☁️
