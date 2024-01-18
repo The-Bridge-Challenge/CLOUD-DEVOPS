@@ -14,7 +14,7 @@
 ### 1. Gestión de permisos y control de versiones:
 Para salvaguardar nuestra infraestructura en GCP, creamos tres grupos (ciberseguridad, data science, full-stack) y asignamos roles y permisos. Limitamos los permisos a lo esencial. Mantén la aplicación bajo vigilancia constante. ¡Protege y controla! 🔐
 
-![Alt text](image.png)
+![Alt text](img/image.png)
 
 ### 2. Diseño de la Arquitectura:
 Utilizaremos Cloud Build para el creado de los servidores con la ayuda del Cloud Run, Cloud SQL para la base de datos PostgreSQL. Una VM para el API del web scraping, Monitorización con Cloud Monitoring y Cloud Logging. ¡Optimizando para el rendimiento sin complicaciones!. 
@@ -57,7 +57,7 @@ Implementamos una máquina virtual (VM) en colaboracion con el equipo de Data Sc
 ### 7. Monitorización:
 Cloud Monitoring será nuestros ojos en tiempo real. Ofrece una visión detallada del rendimiento y la salud de la aplicación. Configuraremos alertas para mantener a nuestro equipo informado sobre cualquier problema detectado. ¡Mantente alerta y reacciona rápidamente! 📊
 
-![Alt text](image-1.png)
+![Alt text](img/image-1.png)
 
 ### 8. Source
 
