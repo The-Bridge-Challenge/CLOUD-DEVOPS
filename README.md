@@ -1,4 +1,5 @@
-# <p align="center">DESAFÍO DE TRIPULACIONES<p align="center">THE BRIDGE</p>
+# <p align="center">DESAFÍO DE TRIPULACIONES<p align="center">THE BRIDGE</p> ![Thebridge](img/TheBridge_logo.png)
+
 
 
 ### Índice:
