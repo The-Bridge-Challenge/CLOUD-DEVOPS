@@ -57,7 +57,7 @@ Cloud Monitoring será nuestros ojos en tiempo real. Ofrece una visión detallad
 
 ### 8. Source
 
-- He aqui algunas fuentes de donde he sacado la informacion.
+- He aqui algunas fuentes de donde he sacado la informacion, despliega para visualizar.
 
 <details>
   <summary>Links</summary>
