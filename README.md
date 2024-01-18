@@ -57,6 +57,8 @@ Implementamos una máquina virtual (VM) en colaboracion con el equipo de Data Sc
 ### 7. Monitorización:
 Cloud Monitoring será nuestros ojos en tiempo real. Ofrece una visión detallada del rendimiento y la salud de la aplicación. Configuraremos alertas para mantener a nuestro equipo informado sobre cualquier problema detectado. ¡Mantente alerta y reacciona rápidamente! 📊
 
+![Alt text](image-1.png)
+
 ### 8. Source
 
 - He aqui algunas fuentes de donde he sacado la informacion, despliega para visualizar.
