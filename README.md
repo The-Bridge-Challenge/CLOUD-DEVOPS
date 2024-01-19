@@ -43,7 +43,7 @@ Utilizaremos Cloud Build para el creado de los servidores con la ayuda del Cloud
 - 🌐 Configuración de la Infraestructura en la Nube y Automatización de Despliegue
   - Configurar la infraestructura de la nube con Cloud Build y GCP.
   - Automatización del aprovisionamiento y la gestión de la infraestructura mediante código (Infrastructure as Code).
-
+#
 ### 3. Infraestructura como código (IaC):
 Terraform será nuestro aliado para crear y gestionar la infraestructura en GCP. Adaptaremos los scripts para manejar recursos específicos como Cloud SQL. ¡Despliega tu infraestructura con un solo clic! [Terraform docs.](/terraform/)💻
 #
