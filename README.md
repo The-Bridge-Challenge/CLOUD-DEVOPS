@@ -92,7 +92,12 @@ Cloud Monitoring será nuestros ojos en tiempo real. Ofrece una visión detallad
 #
 - Algunos lenguajes que usamos en este proyecto.
 
+<div align="center">
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=christianmendez1501&layout=pie)](https://github.com/The-Bridge-Challenge/Challenge)
+
+</div>
+
 
 
 ### Herramientas implementadas
