@@ -49,7 +49,7 @@ Terraform será nuestro aliado para crear y gestionar la infraestructura en GCP.
 #
 ### 4. Despliegue e implementación contínuos (CI/CD):
 Cloud Build de GCP será nuestra herramienta principal para lograr un despliegue continuo. Integraremos Cloud Build con nuestro repositorio en GitHub, activando un proceso de CI/CD en cada push. Compilará, probará y desplegará automáticamente la aplicación. Utilizaremos también Dockerfile para empaquetar la imagen y Docker Compose para orquestar los contenedores correspondientes. ¡Automatización para la eficiencia! 🔄 🐳
-# ![DevOps](Design/9.png)
+# !![01](https://github.com/The-Bridge-Challenge/CLOUD-DEVOPS/assets/143126480/930a6a2f-0edc-4bb0-8db9-efe613614c47)
 
 
 ### 5. Hardening en Colaboración con Ciberseguridad:
